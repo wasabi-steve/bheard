@@ -28,12 +28,12 @@ gem 'configatron'
 
 
 group :development do
-	gem 'pry'
-	gem 'pry-nav'
-	gem 'pry-doc'
-	gem 'pry-rails'
-	gem 'pry-remote'
-	gem 'ruby-prof',               require:false
+  gem 'pry'
+  gem 'pry-nav'
+  gem 'pry-doc'
+  gem 'pry-rails'
+  gem 'pry-remote'
+  gem 'ruby-prof',               require:false
   gem 'better_errors'
   gem 'html2haml'
   gem 'hub', :require=>nil
