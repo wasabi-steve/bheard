@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.0'
 
 
 # webservers
@@ -9,7 +9,7 @@ gem 'thin',     group: :development
 
 gem 'rails', '4.1.0.rc1'
 gem 'sqlite3'
-gem 'sass-rails', '~> 4.0.1'
+gem 'sass-rails', "~> 4.0.2"
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
@@ -22,14 +22,12 @@ gem 'haml-rails'
 gem 'simple_form'
 gem 'andand'
 gem 'font-awesome-rails'
-gem 'animation'
 
 # centralized configuration for application
 gem 'configatron'
 
 
 group :development do
-  gem 'spring'
 	gem 'pry'
 	gem 'pry-nav'
 	gem 'pry-doc'
