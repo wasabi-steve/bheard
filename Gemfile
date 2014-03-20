@@ -37,14 +37,11 @@ group :development do
 	gem 'pry-remote'
 	gem 'ruby-prof',               require:false
   gem 'better_errors'
-  gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
   gem 'html2haml'
   gem 'hub', :require=>nil
   gem 'quiet_assets'
   gem 'rails_layout'
-  gem 'quiet_assets'
   gem 'query_reviewer'
-  gem "better_errors"
   gem "binding_of_caller"
 end
 
